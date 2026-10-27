@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> SuperMovies - Archimeopoli </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 </head>
 <body>
     <div>
@@ -23,16 +25,16 @@
             <h2> Modulo di Prenotazione </h2>
             <section>
                 <form>
-                    <label for="nome"> Nome </label>
+                    <label for="nome" id="nome"> Nome </label>
                     <input type="text" id="nome" name="nome" required>
 
-                    <label for="email"> Email </label>
+                    <label for="email" id="email"> Email </label>
                     <input type="email" id="email" name="email" required>
 
-                    <label for="data"> Data </label>
+                    <label for="data" id="data"> Data </label>
                     <input type="date" id="data" name="data" required>
 
-                    <label for="film"> Film </label>
+                    <label for="film" id="film"> Film </label>
                     <select name="film" id="film">
                         <option value="film1"> Quando Evadi le Tasse </option>
                         <option value="film2"> Meow Meow </option>
@@ -41,10 +43,10 @@
 
                     <legend> Seleziona il tipo di biglietto: </legend>
                     
-                    <label for="intero"> Intero </label>
+                    <label for="intero" id="intero"> Intero </label>
                     <input type="radio" id="intero" name="intero" value="intero">
 
-                    <label for="ridotto"> Ridotto </label>
+                    <label for="ridotto" id="ridotto"> Ridotto </label>
                     <input type="radio" id="ridotto" name="ridotto" value="ridotto">
 
                     <label for="posti"> Numero di Posti </label>
