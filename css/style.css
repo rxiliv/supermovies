@@ -1,0 +1,18 @@
+:root {
+    --primary-color: white;
+    --secondary-color: lightblue;
+    --text-color: blue;
+    --font-fallback: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+}
